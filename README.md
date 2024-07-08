@@ -1,4 +1,4 @@
-Memory Hierarchy Simulation  
+# Memory Hierarchy Simulation  
   
 This project is a JavaScript implementation of a memory hierarchy simulation. It models a multi-level cache system with different cache levels (L1, L2, L3), main memory (RAM), and disk storage. The simulation allows users to configure the cache levels, sizes, block size, and replacement policies, and then simulate memory accesses to observe the performance in terms of hits, misses, and total access time.  
   
