@@ -5,13 +5,14 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 ---
 
 ## 📋 Table of Contents  
-- Features 
-- Technologies Used
-- Setup
-- Usage
-- Configuration
-- Simulation Details 
-- Classes and Methods 
+- [Features](#✨-features)  
+- [Technologies Used](#🛠️-technologies-used)  
+- [Setup](#⚙️-setup)  
+- [Usage](#🚀-usage)  
+- [Configuration](#🛠️-configuration)  
+- [Simulation Details](#📊-simulation-details)  
+- [Classes and Methods](#📚-classes-and-methods)  
+
 
 ---
 
