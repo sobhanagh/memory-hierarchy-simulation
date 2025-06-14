@@ -15,7 +15,7 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 
 
 ---
-
+<a id="features"></a>
 ## ✨ Features  
 - Configurable cache levels (L1, L2, L3)  
 - Configurable cache sizes and block size  
@@ -24,14 +24,14 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 - Visualization of results using a **bar chart**  
 
 ---
-
+<a id="technologies-used"></a>
 ## 🛠️ Technologies Used  
 - JavaScript  
 - HTML/CSS  
 - Chart.js for data visualization  
 
 ---
-
+<a id="setup"></a>
 ## ⚙️ Setup  
 1. Clone the repository:  
    ```bash
@@ -55,7 +55,7 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 5. The results are also visualized in a **bar chart**.
 
 ---
-
+<a id="configuration"></a>
 ## 🛠️ Configuration
 
 * **Cache Levels:** Number of cache levels (1, 2, or 3).
@@ -66,7 +66,7 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 * **Replacement Policy:** Cache replacement policy (FIFO, LRU, MRU, Random, LFRU).
 
 ---
-
+<a id="simulation-details"></a>
 ## 📊 Simulation Details
 
 The simulation performs a series of memory accesses and tracks the performance metrics:
@@ -76,7 +76,7 @@ The simulation performs a series of memory accesses and tracks the performance m
 * **Total Time:** Total time taken for all memory accesses, considering the delays for each cache level, RAM, and disk.
 
 ---
-
+<a id="classes-and-methods"></a>
 ## 📚 Classes and Methods
 
 ### MemoryHierarchy
