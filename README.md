@@ -80,29 +80,38 @@ The simulation performs a series of memory accesses and tracks the performance m
 
 ### MemoryHierarchy
 
-* **Constructor:** Initializes the memory hierarchy with the specified configuration.
-* **initialRam():** Initializes the main memory with random addresses.
-* **simulateAccesses():** Simulates a series of memory accesses.
-* **accessMemory(address):** Accesses the memory hierarchy for a given address.
-* **displayResults():** Displays the simulation results on the page.
-* **renderChart():** Renders a bar chart of the simulation results.
+| **Method**                | **Description**                                                    |
+| ------------------------- | ------------------------------------------------------------------ |
+| **Constructor**           | Initializes the memory hierarchy with the specified configuration. |
+| **initialRam()**          | Initializes the main memory with random addresses.                 |
+| **simulateAccesses()**    | Simulates a series of memory accesses.                             |
+| **accessMemory(address)** | Accesses the memory hierarchy for a given address.                 |
+| **displayResults()**      | Displays the simulation results on the page.                       |
+| **renderChart()**         | Renders a bar chart of the simulation results.                     |
+
 
 ### Cache
 
-* **Constructor:** Initializes the cache with the specified size, block size, and replacement policy.
-* **access(address):** Checks if the address is in the cache.
-* **insert(address):** Inserts an address into the cache.
-* **evict():** Evicts an address from the cache based on the replacement policy.
-* **findLFRU():** Finds the least frequently used address for eviction (LFRU policy).
-* **findLFU():** Finds the least frequently used address for eviction (LFU policy).
-* **findSC():** Finds an address to evict using the second-chance (SC) policy.
-* **remove(address):** Removes an address from the cache.
+| **Method**          | **Description**                                                      |
+| ------------------- | -------------------------------------------------------------------- |
+| **Constructor**     | Initializes the cache with size, block size, and replacement policy. |
+| **access(address)** | Checks if the address is in the cache.                               |
+| **insert(address)** | Inserts an address into the cache.                                   |
+| **evict()**         | Evicts an address based on the replacement policy.                   |
+| **findLFRU()**      | Finds least frequently used address for eviction (LFRU policy).      |
+| **findLFU()**       | Finds least frequently used address for eviction (LFU policy).       |
+| **findSC()**        | Finds an address to evict using the second-chance (SC) policy.       |
+| **remove(address)** | Removes an address from the cache.                                   |
+
 
 ### Ram
 
-* **Constructor:** Initializes the main memory.
-* **access(address):** Checks if the address is in the main memory.
-* **insert(address):** Inserts an address into the main memory.
-* **remove(address):** Removes an address from the main memory.
-* **evict():** Evicts a random block from the main memory to make space for new entries.
+| **Method**          | **Description**                                           |
+| ------------------- | --------------------------------------------------------- |
+| **Constructor**     | Initializes the main memory.                              |
+| **access(address)** | Checks if the address is in the main memory.              |
+| **insert(address)** | Inserts an address into the main memory.                  |
+| **remove(address)** | Removes an address from the main memory.                  |
+| **evict()**         | Evicts a random block from the main memory to make space. |
+
 
