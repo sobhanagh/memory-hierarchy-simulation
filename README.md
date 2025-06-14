@@ -5,13 +5,13 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 ---
 
 ## 📋 Table of Contents  
-- [Features](#✨-features)  
-- [Technologies Used](#🛠️-technologies-used)  
-- [Setup](#⚙️-setup)  
-- [Usage](#🚀-usage)  
-- [Configuration](#🛠️-configuration)  
-- [Simulation Details](#📊-simulation-details)  
-- [Classes and Methods](#📚-classes-and-methods)  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Setup](#setup)  
+- [Usage](#usage)  
+- [Configuration](#configuration)  
+- [Simulation Details](#simulation-details)  
+- [Classes and Methods](#classes-and-methods)  
 
 
 ---
@@ -45,7 +45,7 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 3. Open `index.html` in your web browser to run the simulation.
 
 ---
-
+<a id="usage"></a>
 ## 🚀 Usage
 
 1. Open the `index.html` file in your web browser.
