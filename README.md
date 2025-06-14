@@ -25,7 +25,7 @@ This project is a **JavaScript implementation** of a memory hierarchy simulation
 
 ---
 <a id="technologies-used"></a>
-## 🛠️ Technologies Used  
+## 🧰 Technologies Used  
 - JavaScript  
 - HTML/CSS  
 - Chart.js for data visualization  
